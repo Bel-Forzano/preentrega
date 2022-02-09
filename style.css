@@ -1,0 +1,147 @@
+* {
+  margin: 0%;
+  background-color: rgb(251, 255, 199);
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo_logo {
+  display: flex;
+}
+
+.titulo_nombre {
+  font-size: 2rem;
+  color: rgb(13, 226, 180);
+  padding-top: 25px;
+}
+
+.barra {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lista {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: space-around;
+  padding: 10px 40px;
+  background-color: rgb(246, 255, 125);
+}
+
+.lista a {
+  background-color: rgb(246, 255, 125);
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.descripcion {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: rgb(96, 6, 180);
+  font-size: 25px;
+  border-style: solid;
+  border-color: rgb(0, 140, 255);
+  border-width: 5px;
+}
+
+.foto1 {
+  display: block;
+  margin: auto;
+}
+
+.foto1_imagen {
+  height: 400px;
+  width: 600px;
+  margin-top: 50px;
+  border-width: 10px;
+  border-style: double;
+  border-color: rgb(0, 255, 213);
+}
+
+.foto1_link {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.foto1_link a {
+  color: crimson;
+  text-decoration: none;
+}
+
+.foto2 {
+  display: block;
+  margin: auto;
+}
+
+.foto2_imagen {
+  height: 400px;
+  width: 600px;
+  margin-top: 50px;
+  border-width: 10px;
+  border-style: double;
+  border-color: rgb(0, 255, 213);
+}
+
+.foto2_link {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.foto2_link a {
+  color: crimson;
+  text-decoration: none;
+}
+
+.video {
+  display: block;
+  margin: auto;
+}
+
+.video_1 {
+  margin-top: 50px;
+  border-width: 10px;
+  border-style: double;
+  border-color: rgb(0, 255, 213);
+}
+
+.video_link {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+.video_link a {
+  color: crimson;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.video_link {
+  font-size: 20px;
+}
+
+.contacto {
+  width: 25px;
+  height: 25px;
+  padding-top: 50px;
+}
